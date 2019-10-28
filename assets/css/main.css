@@ -1,0 +1,13 @@
+.td {
+    border: 1px solid #c7cfd6;
+    padding: 1%;
+    width: 100%;
+    background: rgba(199, 207, 214, 0.29);
+    margin: 5px auto;
+}
+.td b {
+	display: block;
+}
+.row {
+	width: 100%;
+}
