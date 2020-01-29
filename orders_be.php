@@ -17,10 +17,10 @@ if( is_admin() ) {
 
         if($dpvarcurrent_screen->id == $page_init_admin) {
             function _llt_queue_scripts_orderBE() {
-                wp_enqueue_script( 'datables-js', esc_url(plugins_url ( 'assets/js/datatables.min.js', __FILE__ ) ), array( 'jquery' ) );
-                wp_enqueue_script( 'orderBE-js', esc_url(plugins_url( 'assets/js/script.js', __FILE__) ), array( 'jquery' ) );
-                wp_register_style( 'datatables-css', esc_url(plugins_url( 'assets/css/datatables.min.css', __FILE__ ) ) );
-                wp_register_style( 'llt_BEORmain-css', esc_url(plugins_url( 'assets/css/main.css', __FILE__ ) ) );
+                wp_enqueue_script( 'datables-js', esc_url( plugins_url ( 'assets/js/datatables.min.js', __FILE__ ) ), array( 'jquery' ) );
+                wp_enqueue_script( 'orderBE-js', esc_url( plugins_url( 'assets/js/script.js', __FILE__) ), array( 'jquery' ) );
+                wp_register_style( 'datatables-css', esc_url( plugins_url( 'assets/css/datatables.min.css', __FILE__ ) ) );
+                wp_register_style( 'llt_BEORmain-css', esc_url( plugins_url( 'assets/css/main.css', __FILE__ ) ) );
                 wp_enqueue_style( 'datatables-css' );
                 wp_enqueue_style( 'llt_BEORmain-css' );
             }
